@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    /* background-color: rgb(133, 98, 247); */
+}
+.labler{
+    border: 2px solid rgb(27, 27, 27);
+    margin: 2px 2px;
+    padding: 2px 5px;
+}
+.labler1{
+    /* border: 2px solid rgb(27, 27, 27); */
+    margin: 2px 2px;
+    padding: 2px 5px;
+}
+.downbtn {
+    border-radius: 50px;
+    /* background: transparent; */
+}
+.hello{
+    height: 10px;
+    width: 10px;
+    display: inline;
+}

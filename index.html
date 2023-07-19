@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Image resize/compress</title>
+  </head>
+  <body>
+    <div class="d-flex flex-column align-items-center justify-content-center w-100 my-5 h-100">
+       
+        <h2 class="fs-1 text-success fw-bolder mb-2"> Resize / Compress</h2>
+    
+        <div class="mainbox d-flex flex-column labler w-50">
+            <div class="labler  d-flex justify-content-center align-items-center uploader">
+                    <input type="file" class="border-0 m-1" accept="image/*" >
+            </div>
+            <div class="labler  d-flex flex-column">
+                <div class="labler1 d-flex flex-row justify-content-around">
+                    <div class="d-flex w-50 flex-column height">
+                        <label for="height" class="w-25">Height:</label>
+                        <input type="Number" class="w-75 border-0" placeholder=" Enter Height" name="height">
+                    </div>
+                    <div class="d-flex w-50 flex-column width">
+                        <label for="width" class="w-25" >Width:</label>
+                        <input type="Number"  class="w-75 border-0" placeholder=" Enter Width" name="width">
+                    </div>
+                </div>
+                <div class="labler1 d-flex flex-row">
+                    <div class="d-flex  w-50 ratio">
+                        <input type="checkbox" id="ratio" class="mx-1" checked>
+                        <label for="ratio" >Lock Aspect Ratio</label>
+                    </div>
+                    <div class="d-flex  w-50 quality">
+                        <input type="checkbox" id="quality" class="mx-1">
+                        <label for="quality" >Reduce Quality</label>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <Button class="py-2 px-3 m-2 btn-success border-0 fw-bolder downbtn">DOWNLOAD</Button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
